@@ -12,7 +12,7 @@ int main()
     std::cout << "Speed: ";
     std::cout << speed << "\n";
 
-    std::cout << "Enging Running: ";
+    std::cout << "Engine Running: ";
     std::cout << engineRunning << "\n";
 
     return 0;
