@@ -1,6 +1,6 @@
 #include <iostream>
 
-void addTen(double &speed)
+void addTen(double &speed) // & before speed
 {
     speed += 10;
 }
