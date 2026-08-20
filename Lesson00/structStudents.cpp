@@ -19,10 +19,13 @@ void printStudent(Student student)
 
 int main()
 {
-    Student student1;
-    student1.name = "John Doe";
-    student1.age = 20;
-    student1.mail = "johndoe@mail.com";
-    student1.phone = 1234567890;
-    printStudent(student1);
+    Student students[3];
+    students[0] = {"John", 20, "john@mail.com", 123};
+    students[1] = {"Jane", 22, "jane@mail.com", 125};
+    students[2] = {"Mike", 21, "mike@mail.com", 126};
+
+    for (int i = 0; i < 3; i++)
+    {
+        printStudent(students[i]);
+    }
 }
